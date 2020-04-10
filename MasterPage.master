@@ -1,0 +1,93 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            height: 48px;
+        }
+        .style3
+        {
+            height: 448px;
+        }
+        .style4
+        {
+            height: 28px;
+            font-weight: bold;
+        }
+        </style>
+    <script type="text/javascript" language="javascript">
+            javascript:window.history.forward(1);
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table class="style1">
+        <tr>
+            <td align="center" class="style2" 
+                style="background-color: #6699FF; height: 50px; background-image: url('/C:/Users/Shreyas/Documents/Visual Studio 2008/WebSites/WebSite12/App_Data/mylogo.jpg');">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="style3" valign="top">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+                    <table class="style1">
+                        <tr>
+                            <td style="background-color: #FFFF00; height: 10px;">
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #FFCC99">
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #FFFF00; height: 10px">
+                                &nbsp;</td>
+                        </tr>
+                    </table>
+                
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" class="style4" style="background-color: #FF00FF">
+                &nbsp;</td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
